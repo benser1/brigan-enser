@@ -9,19 +9,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+      <a class="navbar-brand topnav" href="#">Brigan Enser</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li>
+          <a href="#welcome">Welcome</a>
+        </li>
+        <li>
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Resume + Contact</a>
         </li>
       </ul>
     </div>
@@ -32,20 +35,20 @@
 
 
 <!-- Header -->
-<a name="about"></a>
+<a name="welcome"></a>
 <div class="intro-header">
   <div class="container">
 
     <div class="row">
       <div class="col-lg-12">
         <div class="intro-message">
-          <h1>Landing Page</h1>
-          <h3>A Template by Start Bootstrap</h3>
+          <h1>Brigan Enser</h1>
+          <h3>Junior Web Developer</h3>
           <hr class="intro-divider">
           <ul class="list-inline intro-social-buttons">
-            <li>
+            <!-- <li>
               <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-            </li>
+            </li> -->
             <li>
               <a href="https://github.com/benser1" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
             </li>
@@ -65,7 +68,7 @@
 
 <!-- Page Content -->
 
-<a  name="services"></a>
+<a  name="about"></a>
 <div class="content-section-a">
 
   <div class="container">
@@ -73,11 +76,15 @@
       <div class="col-lg-5 col-sm-6">
         <hr class="section-heading-spacer">
         <div class="clearfix"></div>
-        <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-        <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+        <h2 class="section-heading">About</h2>
+        <!-- <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p> -->
+        <p class="lead">My name is Brigan Enser and I am a Junior Web Developer. I attended The Flatiron Web Development School,
+        where I learned Ruby, Ruby on Rails, JavaScript, AngularJS, HTML5, and CSS3. I am currently looking for a
+        job where I can apply my coding knowledge and where I can learn from a Senior Developer.</p>
       </div>
       <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-        <img class="img-responsive" src="img/ipad.png" alt="">
+        <!-- <img class="img-responsive" src="app/assets/images/eddy.jpg" alt=""> -->
+        <img class="img-responsive"<%= image_tag 'fb_profile_pic.jpg' %>
       </div>
     </div>
 
@@ -86,7 +93,7 @@
 
 </div>
 <!-- /.content-section-a -->
-
+<a  name="projects"></a>
 <div class="content-section-b">
 
   <div class="container">
@@ -95,11 +102,16 @@
       <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
         <hr class="section-heading-spacer">
         <div class="clearfix"></div>
-        <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-        <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+        <h2 class="section-heading">Projects</h2>
+        <p class="lead">Here are a few projects I have worked on:</p>
+          <ul>
+            <li><a href="https://music-player-1234.herokuapp.com" target="_blank">Music Player</li><br>
+            <li><a href="https://blog-rails-js.herokuapp.com" target="_blank">Blog Application</a></li><br>
+            <li><a href="https://workout-routine.herokuapp.com" target="_blank">Workout Routine</a></li>
+          </ul>
       </div>
       <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-        <img class="img-responsive" src="img/dog.png" alt="">
+        <img class="img-responsive" src="http://aaronmaruska.com/wp-content/uploads/2014/10/project-puzzle.jpg" alt="">
       </div>
     </div>
 
@@ -109,6 +121,7 @@
 </div>
 <!-- /.content-section-b -->
 
+<a  name="contact"></a>
 <div class="content-section-a">
 
   <div class="container">
@@ -117,11 +130,17 @@
       <div class="col-lg-5 col-sm-6">
         <hr class="section-heading-spacer">
         <div class="clearfix"></div>
-        <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-        <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+        <h2 class="section-heading">Resume + Contact</h2>
+        <p class="lead">Contact Information:</p>
+        <ul>
+          <li>Email: <a href="mailto:briganenser28@gmail.com?Subject=You're%20Hired" target="_top">briganenser28@gmail.com</a></li><br>
+          <li>Cell: 678-313-9259</li>
+        </ul>
       </div>
       <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-        <img class="img-responsive" src="img/phones.png" alt="">
+        <!-- <img class="img-responsive"<%= image_tag 'resume.jpg' %> -->
+        <!-- <img class="img-responsive" src="https://i.ytimg.com/vi/kxfeTcty3Do/maxresdefault.jpg" alt=""> -->
+        <iframe src="https://docs.google.com/presentation/d/1Ic_czCs-HyNpwMj8nwTFMwgcZYIDH4ecGUajg6tM4YM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="500" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </div>
     </div>
 
@@ -131,20 +150,20 @@
 </div>
 <!-- /.content-section-a -->
 
-<a  name="contact"></a>
+
 <div class="banner">
 
   <div class="container">
 
     <div class="row">
       <div class="col-lg-6">
-        <h2>Connect to Start Bootstrap:</h2>
+        <h2>Connect with Brigan:</h2>
       </div>
       <div class="col-lg-6">
         <ul class="list-inline banner-social-buttons">
-          <li>
+          <!-- <li>
             <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-          </li>
+          </li> -->
           <li>
             <a href="https://github.com/benser1" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
           </li>
@@ -168,7 +187,7 @@
       <div class="col-lg-12">
         <ul class="list-inline">
           <li>
-            <a href="#">Home</a>
+            <a href="#welcome">Welcome</a>
           </li>
           <li class="footer-menu-divider">&sdot;</li>
           <li>
@@ -176,14 +195,9 @@
           </li>
           <li class="footer-menu-divider">&sdot;</li>
           <li>
-            <a href="#services">Services</a>
-          </li>
-          <li class="footer-menu-divider">&sdot;</li>
-          <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Resume + Contact</a>
           </li>
         </ul>
-        <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
       </div>
     </div>
   </div>
